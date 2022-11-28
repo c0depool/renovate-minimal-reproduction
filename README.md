@@ -1,3 +1,3 @@
-# suradhi-ops
+# renovate-minimal-reproduction
 
-k3s Cluster GitOps managed by Flux + Sops.
+Renovate is unable to detect dependencies in infrastructure/longhorn/release.yaml.
