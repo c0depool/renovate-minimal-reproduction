@@ -17,7 +17,7 @@
     {
       "description": "Yet another regex",
       "fileMatch": "infrastructure/.+\\.ya?ml$",
-      "matchStringsStrategy": "combination",
+      "matchStringsStrategy": "any",
       "matchStrings": [
         "repository:\\s?\"?(?<depName>[^\\s\"]*)\"?\\s*?tag:\\s?\"?(?<currentValue>[^\\s\"]*)\"?"
       ],
