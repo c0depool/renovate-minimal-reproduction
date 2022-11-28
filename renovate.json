@@ -20,5 +20,23 @@
   },
   "kubernetes": {
     "fileMatch": ["cluster/.+\\.ya?ml$","apps/.+\\.ya?ml$","infrastructure/.+\\.ya?ml$"]
-  }
+  },
+   "packageRules": [
+    {
+      "matchPackageNames": ["match-depName-below"],
+      "versioning": "regex:^team-(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))-plugins$"
+    }
+  ],
+  "regexManagers": [
+    {
+      "description": "Yet another regex",
+      "fileMatch": "values.yaml$",
+      "matchStringsStrategy": "combination",
+      "matchStrings": [
+        "image: \"(?<registryUrl>harbor.ourcompany.com\/?)(?<depName>.*?)\"\n",
+        "tag: \"?(?<currentValue>.*)?\""
+      ],
+      "datasourceTemplate": "docker"
+    }
+  ]
 }
