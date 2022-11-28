@@ -27,8 +27,8 @@
       "fileMatch": "infrastructure/.+\\.ya?ml$",
       "matchStringsStrategy": "combination",
       "matchStrings": [
-        "image: \".*\n",
-        "tag: \".*"
+        "image:\\s*\"(?<depName>.*)\"\\s*//",
+        "tag:\\s*\"(?<currentValue>.*)\"\\s*//"
       ],
       "datasourceTemplate": "docker"
     }
