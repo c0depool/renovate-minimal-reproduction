@@ -36,7 +36,7 @@ spec:
          tag: v1_20220531
        backingImageManager:
          repository: longhornio/backing-image-manager
-         tag: v3_20220609
+         tag: v3_20230320
      csi:
        attacher:
          repository: longhornio/csi-attacher
