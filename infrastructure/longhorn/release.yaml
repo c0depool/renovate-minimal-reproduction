@@ -46,7 +46,7 @@ spec:
          tag: v2.1.2
        nodeDriverRegistrar:
          repository: longhornio/csi-node-driver-registrar
-         tag: v2.5.0
+         tag: v2.9.0
        resizer:
          repository: longhornio/csi-resizer
          tag: v1.2.0
