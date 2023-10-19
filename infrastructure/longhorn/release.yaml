@@ -52,7 +52,7 @@ spec:
          tag: v1.2.0
        snapshotter:
          repository: longhornio/csi-snapshotter
-         tag: v3.0.3
+         tag: v6.3.0
      pullPolicy: IfNotPresent
     persistence:
       defaultClassReplicaCount: 2
