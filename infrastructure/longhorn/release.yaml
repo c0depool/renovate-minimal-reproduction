@@ -27,7 +27,7 @@ spec:
          tag: v1.3.0
        ui:
          repository: longhornio/longhorn-ui
-         tag: v1.3.0
+         tag: v1.6.0
        instanceManager:
          repository: longhornio/longhorn-instance-manager
          tag: v1_20220611
