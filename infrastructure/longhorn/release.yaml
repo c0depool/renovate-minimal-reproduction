@@ -21,7 +21,7 @@ spec:
      longhorn:
        engine:
          repository: longhornio/longhorn-engine
-         tag: v1.3.0
+         tag: v1.6.0
        manager:
          repository: longhornio/longhorn-manager
          tag: v1.3.0
